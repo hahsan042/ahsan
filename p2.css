@@ -1,8 +1,12 @@
+body{
+    background-color: aqua;
+}
 main{
-    width: 800px;
+    width: 600px;
     padding-top: 20px;
     margin: auto;
-    background-color: #ccc;
+    background-color: white;
+    box-shadow: -5px 5px 10px rgba(16, 2, 2, 0.92);
 }
 .all{
     margin-left: 20px;
