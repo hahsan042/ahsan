@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p1.css">
+    
+    <title>practices2</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>Storytelling Contest – Feedback Form</h1>
+        <p>We truly appreciate you sharing your incredible story with us! Please take a few moments to provide your valuable feedback on your experience. Your insights help us make future contests even better.</p>
+        </div>
+        <form action="">
+            <fieldset>
+               <legend class="participant-info">Participan Information</legend>
+               <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <label for="age">Age:</label>
+                <select name="age" id="age">
+                    <option value="18_24">18-24</option>
+                    <option value="25_34">25-34</option>
+                    <option value="35_44">35-44</option>
+                    <option value="45_54">45-54</option>
+                    <option value="55_64">55-64</option>
+                    <option value="65_plus">65+</option>
+                </select>
+               </div>
+            </fieldset>
+            <fieldset>
+              <legend>Share Your Story</legend>
+              <label for="story">Your Story:</label>
+              <textarea id="story" name="story" rows="5" cols="50" placeholder="Tell us your story..."></textarea>
+            </fieldset>
+
+            
+
+
+            <fieldset>
+               <legend class="participant-info"> Story Rating</legend>
+               <div class="form-group">
+                <label for="text">How would you rate this storytelling experience?</label>
+                <select name="age" id="age">
+                     <option value="select">--please select--</option>
+                    <option value="poor">Poor</option>
+                    <option value="Average">Average</option>
+                    <option value="Good">Good</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Outstanding">Outstanding</option>
+                </select>
+               </div>
+            </fieldset>
+
+
+
+
+              <fieldset>
+              <legend>Optional Suggestions</legend>
+              <label for="story">Any suggestions to improve the contest?</label>
+              <textarea id="story" name="story" rows="5" placeholder="give us suggestions..."></textarea>
+            </fieldset>
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">I agree to let my story be published on the contest website.</label>
+            <div class="btn">
+                <input type="button" value="Submit">
+                <input type="reset" value="clear">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
