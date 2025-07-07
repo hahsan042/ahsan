@@ -1,0 +1,19 @@
+main{
+    width: 800px;
+    padding-top: 20px;
+    margin: auto;
+    background-color: #ccc;
+}
+.all{
+    margin-left: 20px;
+}
+.img img{
+    width: 250px;
+   height: auto;
+}
+ .another form{
+    width: 50%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+ }
