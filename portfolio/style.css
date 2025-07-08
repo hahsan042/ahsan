@@ -1,4 +1,13 @@
 /* common css */
+
+
+.saira-normal {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -6,18 +15,36 @@
 span{
     color: red;
 }
+p {
+    color: #757575;
+    padding: 10px 0px;
+}
+hr{   color: #757575;
+
+}
 .btn{
     width: 150px;
-    height: 64px;
+    height: 50px;
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
-    font: bold;
+    font-weight: 600;
 
 }
 .button button{
     width: 200px;
     height: 64px;
+   
+}
+.b1{
+    margin-left: 65px;
+      width: 150px;
+    height: 50px;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid #FD6E0A;
 }
 .button{
     text-align: center;
@@ -103,6 +130,8 @@ main{
     justify-content: space-around;
     gap: 20px;
 }
+
+
 .card{
     background-color: #FFFFFF;
     padding: 20px;
@@ -114,11 +143,19 @@ main{
 }
 .card p ,h3{
     line-height: 30px;
-    margin-top: 40px;
+    margin-top: 10px;
+}
+.summary{
+    text-align: center;
 }
 .resume{
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
+    padding: 0px 30px;
+    margin: 50px 0px;
+}
+.resume p{
+    padding-right:  110px;
 }
 footer{
     background-color: #FFF8F3;
